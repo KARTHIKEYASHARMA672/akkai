@@ -82,7 +82,7 @@ def birthday_wish():
         "💍 A Sparkling Ring": "https://cdn.shopify.com/s/files/1/0081/7496/0736/t/5/assets/pf-2b3777ef-2ff8-442e-be4d-7cdf4e124d90--saltandpepperdiamondclawprongs.jpg?v=1576239493",
         "🧸 A Cute Teddy Bear": "https://m.media-amazon.com/images/I/61JDO9ItiXL.jpg",
         "🎈 A Colorful Balloon Set": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsLPXwkLSO0OuUD2LYnsqrga9BltnyrRwRxA&s",
-        "🎨 A Personalized Artwork": "https://i.imgur.com/F9qTqDp.jpg"
+        "🎨 A Personalized Artwork": "https://m.media-amazon.com/images/I/81LTw1+JAOL._UF350,350_QL50_.jpg"
     }
     selected_gift = st.selectbox("Pick a gift to send:", list(gifts.keys()))
     if selected_gift:
