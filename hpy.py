@@ -96,7 +96,7 @@ def birthday_wish():
         st.markdown(f"### 🌟 Memory Shared: {memory} 🌟")
         st.success("Your special memory has been saved! 💖")
         st.markdown("## ✨ A Special Poem for Bhavya Akka ✨")
-        poem = {
+        poem = (
             "Roses are red, violets are blue,"
             "On your birthday, we celebrate you!🎉,"
             "A sister so kind, loving, and bright,"
@@ -105,7 +105,7 @@ def birthday_wish():
             "You've always been so near and dear,"
             "So on this day, we wish you cheer,"
             "A year of joy and dreams so clear! 🥳💐"
-        }
+        )
         st.markdown(f"### 💕 {poem} 💕")
 
     
