@@ -51,13 +51,14 @@ def birthday_wish():
     # Add a countdown to her next birthday
     st.markdown("## ⏳ Countdown to Next Birthday ⏳")
     today = date.today()
-    this_year_birthday = date(today.year, 2, 27)
-    if today > this_year_birthday:
-        next_birthday = date(today.year + 1, 2, 27)
-    else:
-        next_birthday = this_year_birthday
-    countdown = (next_birthday - today).days
-    st.metric(label="Days Until Bhavya Akka's Next Birthday", value=countdown)
+    birthday = date(today.year, 2, 27)
+    
+    if today > birthday:
+        birthday = date(today.year + 1, 2, 27)
+    
+    days_left = (birthday - today).days
+    
+    st.metric(label="Days Until Bhavya Akka's Next Birthday 🎂", value=days_left)
     
     # Add a fun random birthday quote
     quotes = [
