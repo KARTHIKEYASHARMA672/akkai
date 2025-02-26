@@ -9,7 +9,7 @@ def birthday_wish():
     
     st.write(border)
     st.markdown("# 🎊🎂 Happy Birthday Bhavya Akka! 🎂🎊")
-    st.image("https://i.imgur.com/4M34hi2.png", caption="A Special Day for a Special Sister! 💖")
+    st.image("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/happy-birthday-greeting-flyer-poster-template-design-a71245c36f740aef073cffc87d7086b2_screen.jpg?ts=1693368143.png", caption="A Special Day for a Special Sister! 💖")
     st.write(border)
     st.write("")
     
