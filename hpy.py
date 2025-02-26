@@ -97,12 +97,9 @@ def birthday_wish():
         st.success("Your special memory has been saved! 💖")
     
     # Extra Festive Elements
- st.markdown("## 📸 Share Your Favorite Memory with Bhavya Akka 📸")
-    memory = st.text_area("Write a cherished memory you have with her:")
-    if memory:
-        st.markdown(f"### 🌟 Memory Shared: {memory} 🌟")
-        st.success("Your special memory has been saved! 💖")
-
+  st.markdown("## 🎊 Let's Celebrate! 🎊")
+    st.video("https://www.youtube.com/watch?v=ho08YLYDM88")
+    st.success("Hope you enjoy this special day! 💖🎂🥳")
 
 st.title("🎂 Bhavya Akka's Birthday Celebration 🎂")
 st.subheader("A Special Gift Just for You! 💖")
