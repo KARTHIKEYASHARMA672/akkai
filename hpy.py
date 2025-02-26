@@ -78,7 +78,7 @@ def birthday_wish():
     st.markdown("## 🎁 Choose a Virtual Gift for Bhavya Akka 🎁")
     gifts = {
         "🌹 A Beautiful Rose": "https://i.pinimg.com/736x/65/a6/50/65a6508ecd6bd85b2c5b2eb57a4482dc.jpg",
-        "🍫 A Box of Chocolates": "https://i.imgur.com/9N1FFRH.jpg",
+        "🍫 A Box of Chocolates": "https://luvflowercake.com/wp-content/uploads/2022/10/23.1.webp",
         "💍 A Sparkling Ring": "https://i.imgur.com/5QK7rUJ.jpg",
         "🧸 A Cute Teddy Bear": "https://i.imgur.com/YHbPiYy.jpg",
         "🎈 A Colorful Balloon Set": "https://i.imgur.com/4yXCsPT.jpg",
