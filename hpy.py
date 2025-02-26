@@ -12,6 +12,13 @@ def birthday_wish():
     st.image("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/happy-birthday-greeting-flyer-poster-template-design-a71245c36f740aef073cffc87d7086b2_screen.jpg?ts=1693368143.png", caption="A Special Day for a Special Sister! 💖")
     st.write(border)
     st.write("")
+
+    st.markdown("## 🎂 Blowing Out Candles in...")
+ for i in range(5, 0, -1):
+    st.write(f"🕯️ {i}...")
+    time.sleep(1)
+   st.write("🎉 Make a Wish & Blow the Candles! 🕯️✨")
+   st.balloons()  # Balloons after countdown!
     
     messages = [
         "### May your day be filled with love, joy, and lots of cake! 🍰🎁",
