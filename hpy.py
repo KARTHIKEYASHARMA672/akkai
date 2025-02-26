@@ -34,6 +34,9 @@ def birthday_wish():
     st.snow()
     st.balloons()
     
+    # Add an animated GIF
+    st.image("https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif", caption="Party Time! 🎉")
+    
     # Add an image for a personalized touch
     st.image("https://i.imgur.com/8xO5F5X.jpg", caption="Happy Birthday Bhavya Akka! 🎂")
     
@@ -64,7 +67,7 @@ def birthday_wish():
     st.markdown(f"## 💬 Birthday Quote of the Day: {random.choice(quotes)}")
     
     # Add a surprise button for an extra greeting
-    if st.button("🎁 Click for a Surprise!"):
+    if st.button("🎁 Click for a Surprise! 🎁"):
         st.success("🎉 Surprise! Wishing you a year full of happiness and success, Bhavya Akka! 💖🎊")
         st.image("https://i.imgur.com/rzX6CgE.jpg", caption="A Special Surprise for You! 🎁")
     
