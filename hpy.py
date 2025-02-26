@@ -31,6 +31,7 @@ def birthday_wish():
         st.audio("https://www2.cs.uic.edu/~i101/SoundFiles/BirthdaySong.mp3")
     
     # Display a fun confetti animation
+    st.snow()
     st.balloons()
     
     # Add an image for a personalized touch
@@ -73,7 +74,9 @@ def birthday_wish():
         "🌹 A Beautiful Rose": "https://i.imgur.com/VzJL2vB.jpg",
         "🍫 A Box of Chocolates": "https://i.imgur.com/9N1FFRH.jpg",
         "💍 A Sparkling Ring": "https://i.imgur.com/5QK7rUJ.jpg",
-        "🧸 A Cute Teddy Bear": "https://i.imgur.com/YHbPiYy.jpg"
+        "🧸 A Cute Teddy Bear": "https://i.imgur.com/YHbPiYy.jpg",
+        "🎈 A Colorful Balloon Set": "https://i.imgur.com/4yXCsPT.jpg",
+        "🎨 A Personalized Artwork": "https://i.imgur.com/F9qTqDp.jpg"
     }
     selected_gift = st.selectbox("Pick a gift to send:", list(gifts.keys()))
     if selected_gift:
@@ -86,6 +89,11 @@ def birthday_wish():
     if memory:
         st.markdown(f"### 🌟 Memory Shared: {memory} 🌟")
         st.success("Your special memory has been saved! 💖")
+    
+    # Extra Festive Elements
+    st.markdown("## 🎊 Let's Celebrate! 🎊")
+    st.video("https://www.youtube.com/watch?v=ho08YLYDM88")
+    st.success("Hope you enjoy this special day! 💖🎂🥳")
 
 st.title("🎂 Bhavya Akka's Birthday Celebration 🎂")
 st.subheader("A Special Gift Just for You! 💖")
