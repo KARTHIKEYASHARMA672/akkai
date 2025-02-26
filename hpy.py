@@ -39,7 +39,7 @@ def birthday_wish():
     
     # Add a special teddy bear section
     st.markdown("## 🧸 Bhavya Akka's Teddy Bear Corner 🧸")
-    st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FPlush-Fabric-Birthday-Balloon-Special%2Fdp%2FB08B4SN5W3&psig=AOvVaw2c2fJmCx-UeaKBVA8M5_Sp&ust=1740638424895000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjbpM3d4IsDFQAAAAAdAAAAABAE", caption="A Cute Teddy Just for You! 🧸💖")
+    st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Fhappy-birthday-teddy-bear.html&psig=AOvVaw2c2fJmCx-UeaKBVA8M5_Sp&ust=1740638424895000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjbpM3d4IsDFQAAAAAdAAAAABAa", caption="A Cute Teddy Just for You! 🧸💖")
     st.success("Since you love teddy bears, here's a virtual one just for you! 🎁")
     
     # Interactive greeting input
