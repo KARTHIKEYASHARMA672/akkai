@@ -35,7 +35,7 @@ def birthday_wish():
     st.balloons()
     
     # Add an animated GIF
-    st.image("https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif", caption="Party Time! 🎉")
+    st.image("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHd6NnJya3NoMmQ2NDJybTljbDE3NHF1dzI1bWx1OXl5cTJpMDYwMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cJoJXuKkiQthQjymBi/giphy.gif", caption="Party Time! 🎉")
     
     # Add a special teddy bear section
     st.markdown("## 🧸 Bhavya Akka's Teddy Bear Corner 🧸")
