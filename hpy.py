@@ -81,7 +81,7 @@ def birthday_wish():
         "The more you praise and celebrate your life, the more there is in life to celebrate! 🎉",
         "Count your age by friends, not years. Count your life by smiles, not tears! ❤️"
     ]
-        st.markdown(f"## 💬 Birthday Quote of the Day: {random.choice(quotes)}")
+    st.markdown(f"## 💬 Birthday Quote of the Day: {random.choice(quotes)}")
     
     # Add a surprise button for an extra greeting
     if st.button("🎁 Click for a Surprise! 🎁"):
