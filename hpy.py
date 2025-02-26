@@ -5,10 +5,10 @@ from datetime import datetime, date
 
 def birthday_wish():
     decorations = ["✨", "🎂", "🎉", "🎁", "❤️", "🥳", "🎈", "💖"]
-    border = " " + "".join(random.choices(decorations, k=20))
+    border = " " + "".join(random.choices(decorations, k=30))
     
     st.write(border)
-    st.markdown("# 🎊🎂 Happy Birthday Bhavya Akkaii! 🎂🎊")
+    st.markdown("# 🎊🎂 Happy Birthday Bhavya Akka! 🎂🎊")
     st.image("https://i.imgur.com/4M34hi2.png", caption="A Special Day for a Special Sister! 💖")
     st.write(border)
     st.write("")
@@ -17,7 +17,7 @@ def birthday_wish():
         "### May your day be filled with love, joy, and lots of cake! 🍰🎁",
         "### You are the best sister ever, and I am so lucky to have you! ❤️💐",
         "### Enjoy your special day to the fullest! 🥳🎈🎶",
-        "### With lots of love, from your brother! 💖💞"
+        "### With lots of love, Your Sibling! 💖💞"
     ]
     
     for message in messages:
@@ -28,7 +28,7 @@ def birthday_wish():
     
     # Add a birthday song effect
     if st.button("🎵 Play Birthday Song 🎵"):
-        st.audio("file:///C:/Users/bhavy/Downloads/Happy%20Birthday%20Bhavya%20Akka.mp3")
+        st.audio("https://www2.cs.uic.edu/~i101/SoundFiles/BirthdaySong.mp3")
     
     # Display a fun confetti animation
     st.snow()
