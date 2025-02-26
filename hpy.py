@@ -103,6 +103,7 @@ def birthday_wish():
         st.markdown(f"### 🌟 Memory Shared: {memory} 🌟")
         st.success("Your special memory has been saved! 💖")
 
+
 st.title("🎂 Bhavya Akka's Birthday Celebration 🎂")
 st.subheader("A Special Gift Just for You! 💖")
 birthday_wish()
