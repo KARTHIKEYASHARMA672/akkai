@@ -37,8 +37,10 @@ def birthday_wish():
     # Add an animated GIF
     st.image("https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif", caption="Party Time! 🎉")
     
-    # Add an image for a personalized touch
-    st.image("https://i.imgur.com/8xO5F5X.jpg", caption="Happy Birthday Bhavya Akka! 🎂")
+    # Add a special teddy bear section
+    st.markdown("## 🧸 Bhavya Akka's Teddy Bear Corner 🧸")
+    st.image("https://i.imgur.com/YHbPiYy.jpg", caption="A Cute Teddy Just for You! 🧸💖")
+    st.success("Since you love teddy bears, here's a virtual one just for you! 🎁")
     
     # Interactive greeting input
     user_greeting = st.text_area("Write a special message for Bhavya Akka:")
