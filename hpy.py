@@ -90,7 +90,7 @@ def birthday_wish():
         st.success(f"You have gifted {selected_gift} to Bhavya Akka! 🎁💖")
     
     # Birthday Memory Sharing Section
-    st.markdown("## 📸 Share Your Favorite Memory with Bhavya Akka 📸")
+    st.markdown("## 📸 Share a Favorite Memory with you Akka 📸")
     memory = st.text_area("Write hi in this :")
     if memory:
         st.markdown(f"### 🌟 Memory Shared: {memory} 🌟")
