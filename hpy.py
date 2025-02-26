@@ -17,7 +17,7 @@ def birthday_wish():
         "### May your day be filled with love, joy, and lots of cake! 🍰🎁",
         "### You are the best sister ever, and I am so lucky to have you! ❤️💐",
         "### Enjoy your special day to the fullest! 🥳🎈🎶",
-        "### With lots of love, Your Sibling! 💖💞"
+        "### With lots of love, from your brother! 💖💞"
     ]
     
     for message in messages:
