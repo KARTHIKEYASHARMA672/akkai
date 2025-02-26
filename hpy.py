@@ -5,7 +5,7 @@ from datetime import datetime, date
 
 def birthday_wish():
     decorations = ["✨", "🎂", "🎉", "🎁", "❤️", "🥳", "🎈", "💖"]
-    border = " " + "".join(random.choices(decorations, k=30))
+    border = " " + "".join(random.choices(decorations, k=20))
     
     st.write(border)
     st.markdown("# 🎊🎂 Happy Birthday Bhavya Akka! 🎂🎊")
@@ -91,7 +91,7 @@ def birthday_wish():
     
     # Birthday Memory Sharing Section
     st.markdown("## 📸 Share Your Favorite Memory with Bhavya Akka 📸")
-    memory = st.text_area("Write a cherished memory you have with her:")
+    memory = st.text_area("Write hi in this :")
     if memory:
         st.markdown(f"### 🌟 Memory Shared: {memory} 🌟")
         st.success("Your special memory has been saved! 💖")
