@@ -8,7 +8,7 @@ def birthday_wish():
     border = " " + "".join(random.choices(decorations, k=30))
     
     st.write(border)
-    st.markdown("# 🎊🎂 Happy Birthday Bhavya Akka! 🎂🎊")
+    st.markdown("# 🎊🎂 Happy Birthday Bhavya Akkaii! 🎂🎊")
     st.image("https://i.imgur.com/4M34hi2.png", caption="A Special Day for a Special Sister! 💖")
     st.write(border)
     st.write("")
