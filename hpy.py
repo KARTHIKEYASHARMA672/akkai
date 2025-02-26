@@ -75,14 +75,13 @@ def birthday_wish():
     st.metric(label="Days Until Bhavya Akka's Next Birthday 🎂", value=days_left)
     
     # Add a fun random birthday quote
-     st.markdown(f"## 💬 Birthday Quote of the Day: {random.choice(quotes)}")
     quotes = [
         "Birthdays are nature’s way of telling us to eat more cake! 🎂",
         "Age is merely the number of years the world has been enjoying you! 😊",
         "The more you praise and celebrate your life, the more there is in life to celebrate! 🎉",
         "Count your age by friends, not years. Count your life by smiles, not tears! ❤️"
     ]
-   
+        st.markdown(f"## 💬 Birthday Quote of the Day: {random.choice(quotes)}")
     
     # Add a surprise button for an extra greeting
     if st.button("🎁 Click for a Surprise! 🎁"):
