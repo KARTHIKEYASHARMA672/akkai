@@ -72,7 +72,7 @@ def birthday_wish():
     # Add a surprise button for an extra greeting
     if st.button("🎁 Click for a Surprise! 🎁"):
         st.success("🎉 Surprise! Wishing you a year full of happiness and success, Bhavya Akka! 💖🎊")
-        st.image("""", caption="A Special Surprise for You! 🎁")
+        st.image("https://i.imgur.com/rzX6CgE.jpg", caption="A Special Surprise for You! 🎁")
     
     # Add a virtual birthday gift selection
     st.markdown("## 🎁 Choose a Virtual Gift for Bhavya Akka 🎁")
