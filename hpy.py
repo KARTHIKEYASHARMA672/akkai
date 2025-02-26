@@ -1,6 +1,7 @@
 import streamlit as st
 import random
 import time
+from datetime import datetime, date
 
 def birthday_wish():
     decorations = ["✨", "🎂", "🎉", "🎁", "❤️", "🥳", "🎈", "💖"]
@@ -42,7 +43,6 @@ def birthday_wish():
     
     # Add a countdown to her next birthday
     st.markdown("## ⏳ Countdown to Next Birthday ⏳")
-    from datetime import datetime, date
     today = date.today()
     next_birthday = date(today.year + 1, 2, 27) if today > date(today.year, 2, 27) else date(today.year, 2, 27)
     countdown = (next_birthday - today).days
@@ -56,6 +56,11 @@ def birthday_wish():
         "Count your age by friends, not years. Count your life by smiles, not tears! ❤️"
     ]
     st.markdown(f"## 💬 Birthday Quote of the Day: {random.choice(quotes)}")
+    
+    # Add a surprise button for an extra greeting
+    if st.button("🎁 Click for a Surprise!"):
+        st.success("🎉 Surprise! Wishing you a year full of happiness and success, Bhavya Akka! 💖🎊")
+        st.image("https://www.happybirthdayimages.com/images/birthday-surprise.jpg", caption="A Special Surprise for You! 🎁")
 
 st.title("🎂 Birthday Celebration App 🎂")
 st.subheader("Let's make this day extra special!")
