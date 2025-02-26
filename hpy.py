@@ -43,10 +43,25 @@ def birthday_wish():
     st.success("Since you love teddy bears, here's a virtual one just for you! 🎁")
     
     # Interactive greeting input
-    user_greeting = st.text_area("Write a special message :")
+    def interactive_greeting():
+    st.markdown("## 💌 Write a Special Birthday Message for Bhavya Akka!")
+    user_greeting = st.text_area("Write your heartfelt message:")
+
+    # Button to generate a random birthday wish
+    if st.button("💡 Need Inspiration? Generate a Random Wish!"):
+        random_wishes = [
+            "Happy Birthday, Akka! 🎉 Wishing you a day filled with love, joy, and all your favorite things! ❤️",
+            "You're the best sister ever! 💖 May this year bring you endless happiness and success! 🥳",
+            "Sending you warm hugs and lots of love on your special day! 🎁 Stay blessed always! 💕",
+            "To my amazing Akka, may your dreams come true and your heart always be filled with joy! 🎈",
+        ]
+        user_greeting = random.choice(random_wishes)
+        st.text_area("Here's a message for you!", user_greeting)
+
     if user_greeting:
         st.markdown(f"### 💌 Your Message: {user_greeting} 💌")
         st.success("Your message has been shared! 🎊")
+        
     
     # Add a countdown to her next birthday
     st.markdown("## ⏳ Countdown to Next Birthday ⏳")
