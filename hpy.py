@@ -79,7 +79,7 @@ def birthday_wish():
     gifts = {
         "🌹 A Beautiful Rose": "https://i.pinimg.com/736x/65/a6/50/65a6508ecd6bd85b2c5b2eb57a4482dc.jpg",
         "🍫 A Box of Chocolates": "https://luvflowercake.com/wp-content/uploads/2022/10/23.1.webp",
-        "💍 A Sparkling Ring": "https://i.imgur.com/5QK7rUJ.jpg",
+        "💍 A Sparkling Ring": "https://cdn.shopify.com/s/files/1/0081/7496/0736/t/5/assets/pf-2b3777ef-2ff8-442e-be4d-7cdf4e124d90--saltandpepperdiamondclawprongs.jpg?v=1576239493",
         "🧸 A Cute Teddy Bear": "https://i.imgur.com/YHbPiYy.jpg",
         "🎈 A Colorful Balloon Set": "https://i.imgur.com/4yXCsPT.jpg",
         "🎨 A Personalized Artwork": "https://i.imgur.com/F9qTqDp.jpg"
