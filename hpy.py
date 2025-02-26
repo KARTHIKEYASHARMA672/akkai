@@ -8,7 +8,7 @@ def birthday_wish():
     border = " " + "".join(random.choices(decorations, k=20))
     
     st.write(border)
-    st.markdown("# 🎊🎂 Happy Birthday Bhavya Akka! 🎂🎊")
+    st.markdown("# 🎊🎂 Happy Birthday Bhavya Akkaii! 🎂🎊")
     st.image("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/happy-birthday-greeting-flyer-poster-template-design-a71245c36f740aef073cffc87d7086b2_screen.jpg?ts=1693368143.png", caption="A Special Day for a Special Sister! 💖")
     st.write(border)
     st.write("")
@@ -38,12 +38,12 @@ def birthday_wish():
     st.image("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHd6NnJya3NoMmQ2NDJybTljbDE3NHF1dzI1bWx1OXl5cTJpMDYwMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cJoJXuKkiQthQjymBi/giphy.gif", caption="Party Time! 🎉")
     
     # Add a special teddy bear section
-    st.markdown("## 🧸 Bhavya Akka's Teddy Bear Corner 🧸")
+    st.markdown("## 🧸 Akka your  Teddy Bear Corner 🧸")
     st.image("https://i.pinimg.com/474x/39/54/6d/39546daa4ba02e152fa8f98ad363e86b.jpg", caption="A Cute Teddy Just for You! 🧸💖")
     st.success("Since you love teddy bears, here's a virtual one just for you! 🎁")
     
     # Interactive greeting input
-    user_greeting = st.text_area("Write a special message for Bhavya Akka:")
+    user_greeting = st.text_area("Write a special message :")
     if user_greeting:
         st.markdown(f"### 💌 Your Message: {user_greeting} 💌")
         st.success("Your message has been shared! 🎊")
@@ -71,11 +71,11 @@ def birthday_wish():
     
     # Add a surprise button for an extra greeting
     if st.button("🎁 Click for a Surprise! 🎁"):
-        st.success("🎉 Surprise! Wishing you a year full of happiness and success, Bhavya Akka! 💖🎊")
+        st.success("🎉 Surprise! Wishing you a year full of happiness and success for u Akkaiii! 💖🎊")
         st.image("https://i.imgur.com/rzX6CgE.jpg", caption="A Special Surprise for You! 🎁")
     
     # Add a virtual birthday gift selection
-    st.markdown("## 🎁 Choose a Virtual Gift for Bhavya Akka 🎁")
+    st.markdown("## 🎁 Choose a Virtual Gift for you Akka 🎁")
     gifts = {
         "🌹 A Beautiful Rose": "https://i.pinimg.com/736x/65/a6/50/65a6508ecd6bd85b2c5b2eb57a4482dc.jpg",
         "🍫 A Box of Chocolates": "https://luvflowercake.com/wp-content/uploads/2022/10/23.1.webp",
