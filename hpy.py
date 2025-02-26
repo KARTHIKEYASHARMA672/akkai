@@ -98,8 +98,8 @@ def birthday_wish():
     
     # Extra Festive Elements
   st.markdown("## 🎊 Let's Celebrate! 🎊")
-    st.video("https://www.youtube.com/watch?v=ho08YLYDM88")
-    st.success("Hope you enjoy this special day! 💖🎂🥳")
+  st.video("https://www.youtube.com/watch?v=ho08YLYDM88")
+  st.success("Hope you enjoy this special day! 💖🎂🥳")
 
 st.title("🎂 Bhavya Akka's Birthday Celebration 🎂")
 st.subheader("A Special Gift Just for You! 💖")
