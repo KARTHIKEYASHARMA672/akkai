@@ -14,10 +14,15 @@ def birthday_wish():
     st.write("")
 
     st.markdown("## 🎂 Blowing Out Candles in...")
+
+    countdown_placeholder = st.empty()  # Placeholder for updating countdown
+
     for i in range(5, 0, -1):
-      st.write(f"🕯️ {i}...")
-    time.sleep(1)
-    st.write("🎉 Make a Wish & Blow the Candles! 🕯️✨")
+       countdown_placeholder.markdown(f"### 🕯️ {i}...")
+       time.sleep(1)
+
+    countdown_placeholder.markdown("### 🎉 Make a Wish & Blow the Candles! 🕯️✨")
+
     st.balloons()  # Balloons after countdown!
     
     messages = [
