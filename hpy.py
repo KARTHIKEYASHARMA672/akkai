@@ -43,7 +43,6 @@ def birthday_wish():
     st.success("Since you love teddy bears, here's a virtual one just for you! 🎁")
     
     # Interactive greeting input
-    def interactive_greeting():
     st.markdown("## 💌 Write a Special Birthday Message for Bhavya Akka!")
     user_greeting = st.text_area("Write your heartfelt message:")
 
