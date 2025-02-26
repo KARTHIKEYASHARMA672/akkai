@@ -77,7 +77,7 @@ def birthday_wish():
     # Add a virtual birthday gift selection
     st.markdown("## 🎁 Choose a Virtual Gift for Bhavya Akka 🎁")
     gifts = {
-        "🌹 A Beautiful Rose": "https://i.imgur.com/VzJL2vB.jpg",
+        "🌹 A Beautiful Rose": "https://i.pinimg.com/736x/65/a6/50/65a6508ecd6bd85b2c5b2eb57a4482dc.jpg",
         "🍫 A Box of Chocolates": "https://i.imgur.com/9N1FFRH.jpg",
         "💍 A Sparkling Ring": "https://i.imgur.com/5QK7rUJ.jpg",
         "🧸 A Cute Teddy Bear": "https://i.imgur.com/YHbPiYy.jpg",
