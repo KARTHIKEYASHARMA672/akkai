@@ -17,7 +17,7 @@ def birthday_wish():
         "### May your day be filled with love, joy, and lots of cake! 🍰🎁",
         "### You are the best sister ever, and I am so lucky to have you! ❤️💐",
         "### Enjoy your special day to the fullest! 🥳🎈🎶",
-        "### With lots of love, Your Sibling! 💖💞"
+        "### With lots of love, Your brother! 💖💞"
     ]
     
     for message in messages:
@@ -72,7 +72,7 @@ def birthday_wish():
     # Add a surprise button for an extra greeting
     if st.button("🎁 Click for a Surprise! 🎁"):
         st.success("🎉 Surprise! Wishing you a year full of happiness and success, Bhavya Akka! 💖🎊")
-        st.image("https://i.imgur.com/rzX6CgE.jpg", caption="A Special Surprise for You! 🎁")
+        st.image(""C:\Users\bhavy\OneDrive\Desktop\WhatsApp Image 2025-02-26 at 09.28.14_31369106.jpg"", caption="A Special Surprise for You! 🎁")
     
     # Add a virtual birthday gift selection
     st.markdown("## 🎁 Choose a Virtual Gift for Bhavya Akka 🎁")
