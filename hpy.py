@@ -33,6 +33,7 @@ def birthday_wish():
     # Display a fun confetti animation
     st.snow()
     st.balloons()
+    st.fireworks()
     
     # Add an animated GIF
     st.image("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHd6NnJya3NoMmQ2NDJybTljbDE3NHF1dzI1bWx1OXl5cTJpMDYwMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cJoJXuKkiQthQjymBi/giphy.gif", caption="Party Time! 🎉")
