@@ -40,7 +40,7 @@ def birthday_wish():
     
     # Add a birthday song effect
     if st.button("🎵 Play Birthday Song 🎵"):
-        st.audio("")
+        st.audio("/mnt/data/Happy Birthday Bhavya Akka.mp3")
     
     # Display a fun confetti animation
     st.snow()
