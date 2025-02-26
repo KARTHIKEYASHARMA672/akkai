@@ -48,7 +48,7 @@ def birthday_wish():
     
     # Add a countdown to her next birthday
     st.markdown("## ⏳ Countdown to Next Birthday ⏳")
-    today = date.today()
+    today = date.today(26)
     this_year_birthday = date(today.year, 2, 27)
     if today > this_year_birthday:
         next_birthday = date(today.year + 1, 2, 27)
