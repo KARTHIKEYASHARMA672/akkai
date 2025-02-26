@@ -38,7 +38,7 @@ def birthday_wish():
     # Interactive greeting input
     user_greeting = st.text_area("Akka type hi here:")
     if user_greeting:
-        st.markdown(f"### 💌 Your Message: {you are the best } 💌")
+        st.markdown(f"### 💌 Your Message: {user_greeting} 💌")
         st.success("Your message has been shared! 🎊")
     
     # Add a countdown to her next birthday
