@@ -5,7 +5,7 @@ from datetime import datetime, date
 
 def birthday_wish():
     decorations = ["✨", "🎂", "🎉", "🎁", "❤️", "🥳", "🎈", "💖"]
-    border = " " + "".join(random.choices(decorations, k=10))
+    border = " " + "".join(random.choices(decorations, k=20))
     
     st.write(border)
     st.markdown("# 🎊🎂 Happy Birthday Bhavya Akkaii! 🎂🎊")
