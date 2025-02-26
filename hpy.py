@@ -36,9 +36,9 @@ def birthday_wish():
     st.image("https://www.happybirthdayimages.com/images/birthday-cake.jpg", caption="Happy Birthday Bhavya Akka! 🎂")
     
     # Interactive greeting input
-    user_greeting = st.text_area("Write a special message for Bhavya Akka:")
+    user_greeting = st.text_area("Akka type hi here:")
     if user_greeting:
-        st.markdown(f"### 💌 Your Message: {user_greeting} 💌")
+        st.markdown(f"### 💌 Your Message: {you are the best } 💌")
         st.success("Your message has been shared! 🎊")
     
     # Add a countdown to her next birthday
