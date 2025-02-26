@@ -105,7 +105,7 @@ def birthday_wish():
             "You've always been so near and dear.\n"
             "So on this day, we wish you cheer,\n"
             "A year of joy and dreams so clear! 🥳💐"
-        )
+        }
         st.markdown(f"### 💕 {poem} 💕")
 
     
