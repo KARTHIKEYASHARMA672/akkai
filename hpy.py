@@ -61,6 +61,26 @@ def birthday_wish():
     if st.button("🎁 Click for a Surprise!"):
         st.success("🎉 Surprise! Wishing you a year full of happiness and success, Bhavya Akka! 💖🎊")
         st.image("https://www.happybirthdayimages.com/images/birthday-surprise.jpg", caption="A Special Surprise for You! 🎁")
+    
+    # Add a virtual birthday gift selection
+    st.markdown("## 🎁 Choose a Virtual Gift for Bhavya Akka 🎁")
+    gifts = {
+        "🌹 A Beautiful Rose": "https://www.happybirthdayimages.com/images/rose.jpg",
+        "🍫 A Box of Chocolates": "https://www.happybirthdayimages.com/images/chocolates.jpg",
+        "💍 A Sparkling Ring": "https://www.happybirthdayimages.com/images/ring.jpg",
+        "🧸 A Cute Teddy Bear": "https://www.happybirthdayimages.com/images/teddy.jpg"
+    }
+    selected_gift = st.selectbox("Pick a gift to send:", list(gifts.keys()))
+    if selected_gift:
+        st.image(gifts[selected_gift], caption=selected_gift)
+        st.success(f"You have gifted {selected_gift} to Bhavya Akka! 🎁💖")
+    
+    # Birthday Memory Sharing Section
+    st.markdown("## 📸 Share Your Favorite Memory with Bhavya Akka 📸")
+    memory = st.text_area("Write a cherished memory you have with her:")
+    if memory:
+        st.markdown(f"### 🌟 Memory Shared: {memory} 🌟")
+        st.success("Your special memory has been saved! 💖")
 
 st.title("🎂 Birthday Celebration App 🎂")
 st.subheader("Let's make this day extra special!")
